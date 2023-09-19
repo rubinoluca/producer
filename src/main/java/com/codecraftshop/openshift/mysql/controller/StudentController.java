@@ -19,4 +19,9 @@ public class StudentController {
 	public List<Student> getStudents(){
 		return (List<Student>) studentRepository.findAll();
 	}
+	
+	@RequestMapping(value="/hello")
+    	public String sendHello() {
+        	return "Hello da test!";
+    	}
 }
