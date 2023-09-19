@@ -22,6 +22,6 @@ public class StudentController {
 	
 	@RequestMapping(value="/hello")
     	public String sendHello() {
-        	return "Hello da test!";
+        	return "Hello da test! :)";
     	}
 }
